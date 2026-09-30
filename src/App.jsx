@@ -1,17 +1,19 @@
 
 import './App.css'
-import Title from "./Title.jsx"
+// import Title from "./Title.jsx"
 import ProductTab from './ProductTab.jsx';
+// import MsgBox from './MsgBox.jsx';
 
 function App() {
   
   return (
-    <div>
-      <h1>Hello Fatima to the World of React!</h1>
-      <Title />
-      <ProductTab/>
-    </div>
-  )
+    <>
+      {/* <Title /> */}
+      {/* <MsgBox UserName="Fatima Gul" TextColor="blue" />
+      <MsgBox UserName="Abdul Salam" TextColor="orange" /> */}
+      <ProductTab />
+    </>
+  );
 }
 
 export default App;
